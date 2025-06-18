@@ -1,0 +1,46 @@
+:root,
+[data-bs-theme=light] {
+      --bs-dark-rgb: 72, 85, 99;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+
+html{font-size: 20px;}
+
+footer a {text-decoration: none;}
+
+ body {font-family: "微軟正黑體","Noto Sans TC", sans-serif;background-color: #ffffee;}
+
+h2 {font-size: 1.5rem;font-weight: 900;color: rgb(148, 167, 152);}
+
+.h2-custom-pink {color: rgb(248, 210, 106);}
+
+
+.text-thefan {color: rgb(248, 210, 106);}
+
+
+.card-custom {border-color: rgb( 72 85 99);}
+
+.iconsTitle{font-size:2rem !important;color: rgb( 72 85 99);vertical-align: text-bottom;}
+
+.card-no-border{
+      border: none;
+      background: none;
+}
+
+.text-black {font-weight: 900;}
+
+#historical h5 {
+      font-weight: 900;
+}
+
+body {
+  padding-top: 70px;
+}
+
+
+@media (max-width: 767.98px) {
+  body {
+    padding-top:70px; /* 根據你的導覽列展開狀況調整這個值 */
+  }
+}
